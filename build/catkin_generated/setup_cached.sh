@@ -11,7 +11,7 @@ export OPENRAVE_PLUGINS="/home/pc-campero2/campero_ws/devel/share/openrave-0.9/p
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/pc-campero2/campero_ws/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/pc-campero2/campero_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/pc-campero2/campero_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig"
+export PKG_CONFIG_PATH="/home/pc-campero2/campero_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/pc-campero2/campero_ws/build"
 export PYTHONPATH="/home/pc-campero2/campero_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROS_PACKAGE_PATH="/home/pc-campero2/campero_ws/src:$ROS_PACKAGE_PATH"

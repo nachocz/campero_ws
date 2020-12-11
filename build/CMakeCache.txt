@@ -1094,7 +1094,7 @@ rcomponent_BINARY_DIR:STATIC=/home/pc-campero2/campero_ws/build/campero/rcompone
 rcomponent_SOURCE_DIR:STATIC=/home/pc-campero2/campero_ws/src/campero/rcomponent
 
 //The directory containing a CMake configuration file for realsense2.
-realsense2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/realsense2
+realsense2_DIR:PATH=/usr/local/lib/cmake/realsense2
 
 //Value Computed by CMake
 realsense2_camera_BINARY_DIR:STATIC=/home/pc-campero2/campero_ws/build/campero/realsense/realsense2_camera
@@ -1236,15 +1236,6 @@ robotiq_modbus_tcp_BINARY_DIR:STATIC=/home/pc-campero2/campero_ws/build/campero/
 
 //Value Computed by CMake
 robotiq_modbus_tcp_SOURCE_DIR:STATIC=/home/pc-campero2/campero_ws/src/campero/robotiq/robotiq_modbus_tcp
-
-//Value Computed by CMake
-robotnik_base_hw_BINARY_DIR:STATIC=/home/pc-campero2/campero_ws/build/campero/robotnik_base_hw
-
-//Value Computed by CMake
-robotnik_base_hw_SOURCE_DIR:STATIC=/home/pc-campero2/campero_ws/src/campero/robotnik_base_hw
-
-//The directory containing a CMake configuration file for robotnik_base_hw_lib.
-robotnik_base_hw_lib_DIR:PATH=robotnik_base_hw_lib_DIR-NOTFOUND
 
 //Value Computed by CMake
 robotnik_modbus_io_BINARY_DIR:STATIC=/home/pc-campero2/campero_ws/build/campero/robotnik_modbus_io

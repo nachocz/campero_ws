@@ -1,8 +1,0 @@
-prefix=/home/pc-campero2/campero_ws/install
-
-Name: robotnik_base_hw
-Description: Description of robotnik_base_hw
-Version: 0.9.15
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

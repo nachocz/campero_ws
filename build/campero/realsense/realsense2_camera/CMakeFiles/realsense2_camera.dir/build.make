@@ -126,7 +126,7 @@ realsense2_camera_EXTERNAL_OBJECTS =
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: campero/realsense/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: campero/realsense/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: campero/realsense/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make
-/home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/librealsense2.so.2.33.1
+/home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: /usr/local/lib/librealsense2.so.2.40.0
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/pc-campero2/campero_ws/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libbondcpp.so
