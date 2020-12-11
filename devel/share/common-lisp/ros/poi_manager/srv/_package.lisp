@@ -1,0 +1,15 @@
+(cl:defpackage poi_manager-srv
+  (:use )
+  (:export
+   "READPOIS"
+   "<READPOIS-REQUEST>"
+   "READPOIS-REQUEST"
+   "<READPOIS-RESPONSE>"
+   "READPOIS-RESPONSE"
+   "UPDATEPOIS"
+   "<UPDATEPOIS-REQUEST>"
+   "UPDATEPOIS-REQUEST"
+   "<UPDATEPOIS-RESPONSE>"
+   "UPDATEPOIS-RESPONSE"
+  ))
+

@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: safety_module
+Description: Description of safety_module
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

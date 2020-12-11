@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: axis_camera
+Description: Description of axis_camera
+Version: 0.0.1
+Cflags: -I/home/pc-campero2/campero_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: robotnik_msgs message_runtime

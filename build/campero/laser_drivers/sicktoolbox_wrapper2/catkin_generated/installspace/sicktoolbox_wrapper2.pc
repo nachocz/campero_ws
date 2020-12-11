@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/install
+
+Name: sicktoolbox_wrapper2
+Description: Description of sicktoolbox_wrapper2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: sensor_msgs roscpp sicktoolbox2

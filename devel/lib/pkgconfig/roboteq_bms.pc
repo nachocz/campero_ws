@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: roboteq_bms
+Description: Description of roboteq_bms
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

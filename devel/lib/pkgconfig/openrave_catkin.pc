@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: openrave_catkin
+Description: Description of openrave_catkin
+Version: 1.0.1
+Cflags: -I/opt/ros/kinetic/include/openrave-0.9
+Libs: -L${prefix}/lib -lopenrave0.9
+Requires: 

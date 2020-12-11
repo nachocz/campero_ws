@@ -1,0 +1,22 @@
+controller_list:
+  - name: fake_campero_ur10_controller
+    joints:
+      - campero_ur10_shoulder_pan_joint
+      - campero_ur10_shoulder_lift_joint
+      - campero_ur10_elbow_joint
+      - campero_ur10_wrist_1_joint
+      - campero_ur10_wrist_2_joint
+      - campero_ur10_wrist_3_joint
+  - name: fake_campero_3f_gripper_controller
+    joints:
+      - campero_palm_finger_1_joint
+      - campero_finger_1_joint_1
+      - campero_finger_1_joint_2
+      - campero_finger_1_joint_3
+      - campero_palm_finger_2_joint
+      - campero_finger_2_joint_1
+      - campero_finger_2_joint_2
+      - campero_finger_2_joint_3
+      - campero_finger_middle_joint_1
+      - campero_finger_middle_joint_2
+      - campero_finger_middle_joint_3

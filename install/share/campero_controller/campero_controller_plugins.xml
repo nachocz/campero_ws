@@ -1,0 +1,9 @@
+<library path="lib/libcampero_controller">
+
+  <class name="campero_controller/CamperoController" type="campero_controller::CamperoController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The Campero Controller controls 4 wheel mobile platforms both in skid and omnidirectional drive. It expects 4 VelocityJointInterface type of hardware interfaces.
+    </description>
+  </class>
+
+</library>

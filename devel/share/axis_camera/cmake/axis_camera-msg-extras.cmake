@@ -1,0 +1,2 @@
+set(axis_camera_MESSAGE_FILES "/home/pc-campero2/campero_ws/src/campero/axis_camera/msg/Axis.msg;/home/pc-campero2/campero_ws/src/campero/axis_camera/msg/ptz.msg;/home/pc-campero2/campero_ws/src/campero/axis_camera/msg/inputs_outputs.msg")
+set(axis_camera_SERVICE_FILES "/home/pc-campero2/campero_ws/src/campero/axis_camera/srv/set_ptz.srv;/home/pc-campero2/campero_ws/src/campero/axis_camera/srv/set_digital_output.srv")

@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/install
+
+Name: campero_sim_bringup
+Description: Description of campero_sim_bringup
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

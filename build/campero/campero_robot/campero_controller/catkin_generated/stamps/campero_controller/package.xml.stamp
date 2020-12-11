@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>campero_controller</name>
+  <version>0.0.0</version>
+  <description>The campero_controller package</description>
+
+  <license>BSD</license>
+
+  <maintainer email="aarnal@robotnik.es">Alejandro Arnal</maintainer>
+  <maintainer email="jgomez@robotnik.es">Jose Gómez</maintainer>
+  <maintainer email="mmillet@robotnik.es">Marta Miller</maintainer>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>robotnik_msgs</build_depend>
+  <exec_depend>controller_interface</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>robotnik_msgs</exec_depend>
+
+  <export>
+    <controller_interface plugin="${prefix}/campero_controller_plugins.xml"/>
+  </export>
+</package>

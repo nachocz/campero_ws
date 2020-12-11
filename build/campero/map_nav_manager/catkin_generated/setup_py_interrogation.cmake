@@ -1,0 +1,6 @@
+set(map_nav_manager_SETUP_PY_VERSION "0.0.0")
+set(map_nav_manager_SETUP_PY_SCRIPTS "")
+set(map_nav_manager_SETUP_PY_PACKAGES "map_nav_manager")
+set(map_nav_manager_SETUP_PY_PACKAGE_DIRS "src/map_nav_manager")
+set(map_nav_manager_SETUP_PY_MODULES "")
+set(map_nav_manager_SETUP_PY_MODULE_DIRS "")

@@ -1,0 +1,63 @@
+campero:
+# MoveIt-specific simulation settings
+  moveit_sim_hw_interface:
+    joint_model_group: controllers_initial_group_
+    joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+  generic_hw_control_loop:
+    loop_hz: 300
+    cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+  hardware_interface:
+    joints:
+      - campero_ur10_shoulder_pan_joint
+      - campero_ur10_shoulder_lift_joint
+      - campero_ur10_elbow_joint
+      - campero_ur10_wrist_1_joint
+      - campero_ur10_wrist_2_joint
+      - campero_ur10_wrist_3_joint
+      - campero_palm_finger_1_joint
+      - campero_finger_1_joint_1
+      - campero_finger_1_joint_2
+      - campero_finger_1_joint_3
+      - campero_palm_finger_2_joint
+      - campero_finger_2_joint_1
+      - campero_finger_2_joint_2
+      - campero_finger_2_joint_3
+      - campero_finger_middle_joint_1
+      - campero_finger_middle_joint_2
+      - campero_finger_middle_joint_3
+    sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+  controller_list:
+    - name: campero_ur10_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - campero_ur10_shoulder_pan_joint
+        - campero_ur10_shoulder_lift_joint
+        - campero_ur10_elbow_joint
+        - campero_ur10_wrist_1_joint
+        - campero_ur10_wrist_2_joint
+        - campero_ur10_wrist_3_joint
+    - name: campero_3f_gripper_controller
+      action_ns: follow_joint_trajectory
+      default: True
+      type: FollowJointTrajectory
+      joints:
+        - campero_palm_finger_1_joint
+        - campero_finger_1_joint_1
+        - campero_finger_1_joint_2
+        - campero_finger_1_joint_3
+        - campero_palm_finger_2_joint
+        - campero_finger_2_joint_1
+        - campero_finger_2_joint_2
+        - campero_finger_2_joint_3
+        - campero_finger_middle_joint_1
+        - campero_finger_middle_joint_2
+        - campero_finger_middle_joint_3

@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: rcomponent
+Description: Description of rcomponent
+Version: 1.1.0
+Cflags: -I/home/pc-campero2/campero_ws/src/campero/rcomponent/include
+Libs: -L${prefix}/lib -lrcomponent
+Requires: 

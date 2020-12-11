@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/install
+
+Name: sicktoolbox2
+Description: Description of sicktoolbox2
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lSickLD -lSickLMS1xx -lSickLMS2xx -lSickLMS5xx
+Requires: 

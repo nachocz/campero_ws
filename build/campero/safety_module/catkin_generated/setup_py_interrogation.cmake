@@ -1,0 +1,6 @@
+set(safety_module_SETUP_PY_VERSION "0.1.0")
+set(safety_module_SETUP_PY_SCRIPTS "")
+set(safety_module_SETUP_PY_PACKAGES "safety_module")
+set(safety_module_SETUP_PY_PACKAGE_DIRS "src/safety_module")
+set(safety_module_SETUP_PY_MODULES "")
+set(safety_module_SETUP_PY_MODULE_DIRS "")

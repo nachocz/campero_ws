@@ -1,0 +1,2 @@
+set(system_monitor_MESSAGE_FILES "msg/CoreTemp.msg;msg/CoreUsage.msg;msg/CPUTemperatureStatus.msg;msg/CPUUsageStatus.msg;msg/Diagnostic.msg;msg/DiagnosticCPUTemperature.msg;msg/DiagnosticCPUUsage.msg;msg/DiagnosticHDD.msg;msg/DiagnosticMEM.msg;msg/DiagnosticNET.msg;msg/Disk.msg;msg/HDDStatus.msg;msg/Interface.msg;msg/Memory.msg;msg/MEMStatus.msg;msg/NetStatus.msg")
+set(system_monitor_SERVICE_FILES "")

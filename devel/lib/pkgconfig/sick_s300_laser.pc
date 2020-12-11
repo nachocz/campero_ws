@@ -1,0 +1,8 @@
+prefix=/home/pc-campero2/campero_ws/devel
+
+Name: sick_s300_laser
+Description: Description of sick_s300_laser
+Version: 0.6.11
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
